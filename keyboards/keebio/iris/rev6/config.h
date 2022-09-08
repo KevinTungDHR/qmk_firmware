@@ -14,6 +14,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+// Tap dance config
+
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
+#undef TAPPING_TERM
+#define TAPPING_TERM 240
+#define RETRO_TAPPING
 
 #pragma once
 
