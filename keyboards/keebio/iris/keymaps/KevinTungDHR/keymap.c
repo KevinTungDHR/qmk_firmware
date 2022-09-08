@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      _______,  KC_UNDS, KC_KP_EQUAL, KC_DQUO, KC_QUOT, LSFT(KC_GRV),                            KC_BSLS, KC_LCBR,  KC_RCBR, KC_PIPE,  KC_ENT, _______,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     _______, KC_TILD, KC_CUT, KC_COPY, KC_PASTE, KC_PMNS, KC_TRNS,          KC_TRNS, KC_LBRC, KC_LPRN,  KC_RPRN,   KC_RBRC, TO(_LAYER_3), _______,
+     _______, KC_TILD, KC_BSLS, KC_EXLM, KC_PPLS, KC_PMNS, KC_TRNS,          KC_TRNS, KC_LBRC, KC_LPRN,  KC_RPRN,   KC_RBRC, TO(_LAYER_3), _______,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     TO(_COLEMAK), KC_TRNS, KC_TRNS,                    KC_TRNS,  KC_TRNS, TO(_LAYER_2)
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
